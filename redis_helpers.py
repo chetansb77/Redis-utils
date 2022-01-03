@@ -2,7 +2,7 @@ import redis
 from typing import Any
 import ast
 
-from scripts.helpers.constants import REDIS_HOST, REDIS_PASSWORD
+from environment import REDIS_HOST, REDIS_PASSWORD
 
 
 class GetRedisClient:
